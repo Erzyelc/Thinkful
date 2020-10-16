@@ -1,0 +1,149 @@
+/*color: hsl(207, 100%, 50%); */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  /* Line height acts as a multiplier for the font-size*/
+  line-height: 1.5;
+  color: #ffffff;
+  /* by default background images will tile/repeat across the whole background of an element*/
+  background-image: url("images/cool-background.png");
+  /* this will make the page fluid up until 640px*/
+  max-width: 700px;
+  /* by using auto margins it will automatically put content centered*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  /*creates space at the top of the body*/
+  padding-top: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div {
+  /*max-width: 1100px;*/
+  margin: auto;
+  background-color: #c0d2e3;
+}
+/*Beginning of header section*/
+header {
+  margin: 0;
+  background-color: #3e4677;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 60px;
+  padding: 50px 0 20px 20px;
+  margin: 0;
+  font-family: "Fjalla One", sans-serif;
+  letter-spacing: 2px;
+}
+
+header h2 {
+  padding: 0 0 20px 20px;
+  margin-top: 5px;
+  font-size: 25px;
+}
+/*End of header section*/
+
+/*Beginning of main section to hold article information*/
+main {
+  background-color: #c0d2e3;
+  height: 850px;
+}
+
+section {
+  padding: 40px;
+  font-size: 20px;
+}
+
+section p {
+  line-height: 200%;
+}
+
+hr {
+  border: 1px solid #2a7bbf;
+}
+
+.headers {
+  color: hsl(207, 100%, 50%);
+  font-size: 25px;
+}
+
+.skills {
+  color: #2a2abf;
+  font-size: 22px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.list {
+  color: #2a7bbf;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Fjalla One", sans-serif;
+}
+
+section ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*End of main section*/
+
+/*Beginning of styles for footer to style contact links*/
+
+footer {
+  background-color: #3e4677;
+  height: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer h3 {
+  padding-top: 15px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.center {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  padding: 10px;
+  list-style: none;
+}
+
+footer img {
+  padding-left: 20px;
+}
+
+.back {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+a:link {
+  color: #000;
+}
+a:visited {
+  color: #fff;
+}
+a:hover {
+  color: #d84add;
+}
+a:active {
+  color: pink;
+}
+
+/*End of footer styling*/
